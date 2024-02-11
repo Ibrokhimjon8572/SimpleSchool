@@ -12,6 +12,7 @@ services:
   web:
     build:
       context: .
+    # image: image name with version
     env_file:
       - .env
     volumes:
